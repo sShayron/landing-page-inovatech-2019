@@ -17,10 +17,11 @@
     </div>
     <div class="nav-wrapper">
       <ul id="myMenu" class="menu-navigation">
-        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">INICIO</a></li>
-        <li data-menuanchor="secondPage"><a href="#secondPage">DEPOIMENTOS</a></li>
-        <li data-menuanchor="thirdPage"><a href="#thirdPage">COMO FUNCIONA</a></li>
-        <li data-menuanchor="fourthPage"><a href="#fourthPage">QUEM SOMOS</a></li>
+        <li data-menuanchor="inicio" class="active"><a href="#inicio">INICIO</a></li>
+        <li data-menuanchor="depoimentos"><a href="#depoimentos">DEPOIMENTOS</a></li>
+        <li data-menuanchor="comofunciona"><a href="#comofunciona">COMO FUNCIONA</a></li>
+        <li data-menuanchor="quemsomos"><a href="#quemsomos">QUEM SOMOS</a></li>
+        <!-- <li data-menuanchor="oapp"><a href="#oapp">O APP</a></li> -->
       </ul>
       <div class="button-download hover-button">
         BAIXE O APP AGORA!
@@ -30,14 +31,19 @@
   <div id="fullpage">
     <div class="section">
       <div class="container section-1">
-        <div class="section-main-text">
-          A MAIOR rede de personagens originais para o seu projeto!
+        <div class="section-main-left">
+          <div class="section-main-text">
+            A MAIOR rede de personagens originais para o seu projeto!
+          </div>
+          <div class="button-main-download hover-button hover-button-amare">
+            BAIXE O APP AGORA!
+          </div>
         </div>
-        <div class="button-main-download hover-button hover-button-amare">
-          BAIXE O APP AGORA!
+        <div class="section-main-right">
+          <img src="mockup_celular_ui.png" alt="Faces aplicativo">
         </div>
         <div class="arrow-next-page">
-          <a href="#secondPage">
+          <a href="#depoimentos">
             <img class="move-up-down-infinite" src="arrow.svg" />
           </a>
         </div>
@@ -98,7 +104,6 @@
             atores e atrizes capixabas, reduzindo custos do contratante e aumentando as oportunidades para profissionais do meio artistico capixabas.
             Este e um projeto para o <b>INOVATECH UVV 2019</b>.
           </div>
-          <img class="logo-uvv" src="logo-uvv.png" >
           <div class="integrantes">
             <div class="integrante-box">
               <img src="torugo.jpg" alt="Victor Hugo" class="integrante-image">
@@ -126,6 +131,7 @@
               <div class="integrante-curso">Sistemas de Informação</div>
             </div>
           </div>
+          <img class="logo-uvv" src="logo-uvv.png" >
         </div>
       </div>
     </div>
@@ -138,7 +144,7 @@
       navigation: true,
 	    navigationPosition: 'right',
       // top menu
-      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+      anchors: ['inicio', 'depoimentos', 'comofunciona', 'quemsomos', 'oapp'],
 	    menu: '#myMenu',
       interlockedSlides: true,
       slidesNavigation: true,
@@ -229,20 +235,30 @@
     }
     .section-1 {
       display: flex;
-      justify-content: center;
       align-items: center;
-      flex-direction: column;
       background: #000000;
       background-image: url('main-bg.jpg');
     }
     .section-main-text {
       font-size: 42px;
       font-weight: bold;
-      padding: 0px 32rem;
-      text-align: center;
       line-height: 1;
-      margin-bottom: 48px;
-      margin-top: 32px;
+      padding: 3rem 13rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .section-main-left {
+      width: 60%;
+      text-align: center;
+    }
+    .section-main-right {
+      width: 40%;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+    .section-main-right img {
+      width: 350px;
     }
     .button-main-download {
       font-family: 'Montserrat', sans-serif;
@@ -250,6 +266,8 @@
       padding: 16px 48px;
       border: 2px solid #fff;
       border-radius: 48px;
+      display: inline-block;
+      width: auto;
     }
     .arrow-next-page {
       position: absolute;
@@ -352,7 +370,7 @@
       border-radius: 15px;
       padding: 64px 32px;
       float: left;
-      box-shadow: 0 0 16px rgba(0,0,0,.5);
+      /* box-shadow: 0 0 16px rgba(0,0,0,.5); */
       position: relative;
       text-align: center;
       color: #fff;
