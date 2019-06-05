@@ -1,5 +1,5 @@
 .header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -10,8 +10,9 @@
   padding: 16px 48px 16px;
   transition: all 1s;
   background: #330832d6;
+  z-index: 9999999;
 }
-.fp-viewing-firstPage .header .logo img {
+.fp-viewing-inicio .header .logo img {
   width: 145px;
   transition: all 0.5s;
   transform: scale(1);

@@ -29,8 +29,15 @@
 .fp-slidesNav.fp-bottom ul li a span {
   background: rgb(255, 185, 25);
 }
+.depoimento2 {
+  background-image: url('/imgs/REJANE.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: rgb(255,255,255);
+  background-color: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 81%);
+}
 .depoimento1 {
-  background-image: url('/imgs/bg-depoimento-1.png');
+  background-image: url('/imgs/ROGERIO.png');
   background-repeat: no-repeat;
   background-color: rgb(255,255,255);
   background-color: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 81%);
@@ -41,7 +48,7 @@
   top: 33%;
   z-index: 1;
   width: 100px;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 .aspas2 {
   position: absolute;
@@ -49,11 +56,22 @@
   top: 58%;
   z-index: 1;
   width: 100px;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 .depoimento {
   position: relative;
   width: 100%;
+}
+.autor {
+  color: rgb(51, 8, 50);
+  font-family: 'Roboto', sans-serif;
+  margin-top: 60px;
+  font-size: 35px;
+}
+.autor-position {
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 16px;
 }
 .depoimento-texto {
   width: 40%;
@@ -64,4 +82,15 @@
   right: 9%;
   top: calc(50% - 100px);
   height: 300px;
+  font-weight: bold;
+}
+
+.depoimento2 .depoimento-texto {
+  left: 9%;
+}
+.depoimento2 .aspas1 {
+  left: 10%;
+}
+.depoimento2 .aspas2 {
+  left: 45%;
 }
