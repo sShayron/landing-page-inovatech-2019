@@ -1,0 +1,67 @@
+.section-2 {
+  background: black;
+}
+.fp-controlArrow.fp-prev {
+  border: none!important;
+  left: 65px!important;
+}
+.fp-controlArrow.fp-prev::before {
+  content: "";
+  background-image: url('/imgs/arrow-roxo.svg');
+  width: 90px;
+  height: 70px;
+  display: block;
+  background-repeat: no-repeat;
+}
+.fp-controlArrow.fp-next {
+  border: none!important;
+  right: 140px!important;
+}
+.fp-controlArrow.fp-next::before {
+  content: "";
+  background-image: url('/imgs/arrow-roxo.svg');
+  width: 90px;
+  height: 70px;
+  display: block;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+.fp-slidesNav.fp-bottom ul li a span {
+  background: rgb(255, 185, 25);
+}
+.depoimento1 {
+  background-image: url('/imgs/bg-depoimento-1.png');
+  background-repeat: no-repeat;
+  background-color: rgb(255,255,255);
+  background-color: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 81%);
+}
+.aspas1 {
+  position: absolute;
+  right: 45%;
+  top: 33%;
+  z-index: 1;
+  width: 100px;
+  opacity: 0.4;
+}
+.aspas2 {
+  position: absolute;
+  right: 10%;
+  top: 58%;
+  z-index: 1;
+  width: 100px;
+  opacity: 0.4;
+}
+.depoimento {
+  position: relative;
+  width: 100%;
+}
+.depoimento-texto {
+  width: 40%;
+  font-size: 34px;
+  color: rgb(51, 8, 50);
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  right: 9%;
+  top: calc(50% - 100px);
+  height: 300px;
+}

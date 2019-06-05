@@ -1,0 +1,48 @@
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+.wrapper-quem-somos {
+  flex-direction: column;
+  align-items: center;
+}
+.quem-somos-texto {
+  color: #330832;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.section-4 .logo-uvv {
+  width: 300px;
+}
+.integrantes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.integrante-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin-bottom: 48px;
+  color: rgb(51, 8, 50);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.integrante-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.integrante {
+  text-align: center;
+  text-shadow: 3px 2px 4px #000000;
+}

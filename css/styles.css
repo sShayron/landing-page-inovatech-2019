@@ -1,0 +1,57 @@
+/* // colors */
+/* background: rgb(51, 8, 50); //roxo
+background: rgb(255, 31, 76); // vermei
+background: rgb(255, 185, 25); // amare
+background: rgb(0, 171, 227); // azul */
+
+html {
+  width: 100vw;
+  overflow: hidden!important;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.fp-viewing-inicio .header {
+  background: transparent;
+  color: #fff;
+}
+.fp-slidesNav.fp-bottom {
+  text-align: center;
+}
+.fp-tableCell {
+  display: flex;
+  width: 100vw!important;
+  height: 100vh!important;
+}
+.fp-viewing-inicio #fp-nav ul li a span {
+  background: #ffffff;
+}
+#fp-nav ul li a span {
+  background:  rgb(51, 8, 50);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.section-title {
+  display: inline-block;
+  text-align: center;
+  font-size: 48px;
+  color: #330832;
+  position: relative;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 4px solid #330832;
+  margin-bottom: 64px;
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  min-height: 60%;
+}

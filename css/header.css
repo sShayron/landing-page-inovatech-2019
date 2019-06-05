@@ -1,0 +1,53 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 48px 16px;
+  transition: all 1s;
+  background: #330832d6;
+}
+.fp-viewing-firstPage .header .logo img {
+  width: 145px;
+  transition: all 0.5s;
+  transform: scale(1);
+}
+.header .logo img {
+  width: 145px;
+  transform: scale(0.9);
+}
+.header .menu-navigation {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.header .nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+.menu-navigation li a, .header .button-download {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+.menu-navigation li a {
+  margin: 0 16px;
+}
+.header .button-download {
+  padding: 12px 32px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin-left: 16px;
+}
+.menu-navigation li {
+  position: relative;
+  padding-bottom: 8px;
+  margin-top: 8px;
+}

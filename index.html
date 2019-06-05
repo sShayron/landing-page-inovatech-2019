@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" />
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/effects.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/section1.css">
+  <link rel="stylesheet" href="/css/section2.css">
+  <link rel="stylesheet" href="/css/section3.css">
+  <link rel="stylesheet" href="/css/section4.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.extensions.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
@@ -13,7 +21,7 @@
 <body>
   <div class="header">
     <div class="logo">
-      <img src="logo_branco.png" />
+      <img src="/imgs/logo_branco.png" />
     </div>
     <div class="nav-wrapper">
       <ul id="myMenu" class="menu-navigation">
@@ -31,7 +39,7 @@
   <div id="fullpage">
     <div class="section">
       <div class="container section-1">
-        <div class="section-main-left">
+        <div class="section-main-left wow fadeIn">
           <div class="section-main-text">
             A MAIOR rede de personagens originais para o seu projeto!
           </div>
@@ -39,12 +47,12 @@
             BAIXE O APP AGORA!
           </div>
         </div>
-        <div class="section-main-right">
-          <img src="mockup_celular_ui.png" alt="Faces aplicativo">
+        <div class="section-main-right wow fadeIn">
+          <img class="fade-in-fwd" src="/imgs/mockup_celular_ui.png" alt="Faces aplicativo">
         </div>
         <div class="arrow-next-page">
           <a href="#depoimentos">
-            <img class="move-up-down-infinite" src="arrow.svg" />
+            <img class="move-up-down-infinite" src="/imgs/arrow.svg" />
           </a>
         </div>
       </div>
@@ -53,8 +61,8 @@
       <div class="container section-2">
         <div class="slide depoimento1">
           <div class="depoimento">
-            <img class="aspas1" src="aspas1.svg">
-            <img class="aspas2" src="aspas2.svg">
+            <img class="aspas1" src="/imgs/aspas1.svg">
+            <img class="aspas2" src="/imgs/aspas2.svg">
             <div class="depoimento-texto">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores eligendi earum ut reprehenderit perspiciatis, autem magni eum atque vel iure esse molestias labore numquam sed rerum culpa, ad nihil minima!
             </div>
@@ -70,21 +78,23 @@
           COMO FUNCIONA
         </div>
         <div class="wrapper">
-          <div class="box-user-1 box-user">
-            <img src="insurance.svg" alt="Contratante">
-            <div class="box-title">Sou contratante</div>
-            <div class="box-text">
-              Encontre atores com perfis perfeitos para seu projeto.
+          <div class="wrapper-comofunciona">
+            <div class="box-user-1 box-user wow fadeInUp">
+              <img src="/imgs/insurance.svg" alt="Contratante">
+              <div class="box-title">Sou contratante</div>
+              <div class="box-text">
+                Encontre atores com perfis perfeitos para seu projeto.
+              </div>
             </div>
-          </div>
-          <div class="box-user-2 box-user">
-            <div class="actors">
-              <img src="man.svg" alt="Ator">
-              <img src="woman.svg" alt="Atriz">
-            </div>
-            <div class="box-title">Sou ator</div>
-            <div class="box-text">
-              Cadastre seu perfil e encontre oportunidades incriveis para sua carreira profissional.
+            <div class="box-user-2 box-user wow fadeInUp">
+              <div class="actors">
+                <img src="/imgs/man.svg" alt="Ator">
+                <img src="/imgs/woman.svg" alt="Atriz">
+              </div>
+              <div class="box-title">Sou ator</div>
+              <div class="box-text">
+                Cadastre seu perfil e encontre oportunidades incriveis para sua carreira profissional.
+              </div>
             </div>
           </div>
         </div>
@@ -106,32 +116,32 @@
           </div>
           <div class="integrantes">
             <div class="integrante-box">
-              <img src="torugo.jpg" alt="Victor Hugo" class="integrante-image">
+              <img src="/imgs/torugo.jpg" alt="Victor Hugo" class="integrante-image">
               <div class="integrante-nome">Victor Hugo</div>
               <div class="integrante-curso">Artes Cênicas</div>
             </div>
             <div class="integrante-box">
-              <img src="ketlyn.jpg" alt="Ketlyn Ferreira" class="integrante-image">
+              <img src="/imgs/ketlyn.jpg" alt="Ketlyn Ferreira" class="integrante-image">
               <div class="integrante-nome">Ketlyn Ferreira</div>
               <div class="integrante-curso">Artes Cênicas</div>
             </div>
             <div class="integrante-box">
-              <img src="bruna.jpg" alt="Bruna" class="integrante-image">
+              <img src="/imgs/bruna.jpg" alt="Bruna" class="integrante-image">
               <div class="integrante-nome">Bruna</div>
               <div class="integrante-curso">Artes Cênicas</div>
             </div>
             <div class="integrante-box">
-              <img src="jonson.jpg" alt="Johson Antunes" class="integrante-image">
+              <img src="/imgs/jonson.jpg" alt="Johson Antunes" class="integrante-image">
               <div class="integrante-nome">Johson Antunes</div>
               <div class="integrante-curso">Sistemas de Informação</div>
             </div>
             <div class="integrante-box">
-              <img src="shayro.jpg" alt="Shayron Aguiar" class="integrante-image">
+              <img src="/imgs/shayro.jpg" alt="Shayron Aguiar" class="integrante-image">
               <div class="integrante-nome">Shayron Aguiar</div>
               <div class="integrante-curso">Sistemas de Informação</div>
             </div>
           </div>
-          <img class="logo-uvv" src="logo-uvv.png" >
+          <img class="logo-uvv" src="/imgs/logo-uvv.png" >
         </div>
       </div>
     </div>
@@ -148,387 +158,548 @@
 	    menu: '#myMenu',
       interlockedSlides: true,
       slidesNavigation: true,
-	    slidesNavPosition: 'bottom',
+      slidesNavPosition: 'bottom',
+      scrollBar: true
     });
+    (function (global, factory) {
+      if (typeof define === "function" && define.amd) {
+        define(['module', 'exports'], factory);
+      } else if (typeof exports !== "undefined") {
+        factory(module, exports);
+      } else {
+        var mod = {
+          exports: {}
+        };
+        factory(mod, mod.exports);
+        global.WOW = mod.exports;
+      }
+    })(this, function (module, exports) {
+      'use strict';
+
+      Object.defineProperty(exports, "__esModule", {
+        value: true
+      });
+
+      var _class, _temp;
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      var _createClass = function () {
+        function defineProperties(target, props) {
+          for (var i = 0; i < props.length; i++) {
+            var descriptor = props[i];
+            descriptor.enumerable = descriptor.enumerable || false;
+            descriptor.configurable = true;
+            if ("value" in descriptor) descriptor.writable = true;
+            Object.defineProperty(target, descriptor.key, descriptor);
+          }
+        }
+
+        return function (Constructor, protoProps, staticProps) {
+          if (protoProps) defineProperties(Constructor.prototype, protoProps);
+          if (staticProps) defineProperties(Constructor, staticProps);
+          return Constructor;
+        };
+      }();
+
+      function isIn(needle, haystack) {
+        return haystack.indexOf(needle) >= 0;
+      }
+
+      function extend(custom, defaults) {
+        for (var key in defaults) {
+          if (custom[key] == null) {
+            var value = defaults[key];
+            custom[key] = value;
+          }
+        }
+        return custom;
+      }
+
+      function isMobile(agent) {
+        return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent)
+        );
+      }
+
+      function createEvent(event) {
+        var bubble = arguments.length <= 1 || arguments[1] === undefined ? false : arguments[1];
+        var cancel = arguments.length <= 2 || arguments[2] === undefined ? false : arguments[2];
+        var detail = arguments.length <= 3 || arguments[3] === undefined ? null : arguments[3];
+
+        var customEvent = void 0;
+        if (document.createEvent != null) {
+          // W3C DOM
+          customEvent = document.createEvent('CustomEvent');
+          customEvent.initCustomEvent(event, bubble, cancel, detail);
+        } else if (document.createEventObject != null) {
+          // IE DOM < 9
+          customEvent = document.createEventObject();
+          customEvent.eventType = event;
+        } else {
+          customEvent.eventName = event;
+        }
+
+        return customEvent;
+      }
+
+      function emitEvent(elem, event) {
+        if (elem.dispatchEvent != null) {
+          // W3C DOM
+          elem.dispatchEvent(event);
+        } else if (event in (elem != null)) {
+          elem[event]();
+        } else if ('on' + event in (elem != null)) {
+          elem['on' + event]();
+        }
+      }
+
+      function addEvent(elem, event, fn) {
+        if (elem.addEventListener != null) {
+          // W3C DOM
+          elem.addEventListener(event, fn, false);
+        } else if (elem.attachEvent != null) {
+          // IE DOM
+          elem.attachEvent('on' + event, fn);
+        } else {
+          // fallback
+          elem[event] = fn;
+        }
+      }
+
+      function removeEvent(elem, event, fn) {
+        if (elem.removeEventListener != null) {
+          // W3C DOM
+          elem.removeEventListener(event, fn, false);
+        } else if (elem.detachEvent != null) {
+          // IE DOM
+          elem.detachEvent('on' + event, fn);
+        } else {
+          // fallback
+          delete elem[event];
+        }
+      }
+
+      function getInnerHeight() {
+        if ('innerHeight' in window) {
+          return window.innerHeight;
+        }
+
+        return document.documentElement.clientHeight;
+      }
+
+      // Minimalistic WeakMap shim, just in case.
+      var WeakMap = window.WeakMap || window.MozWeakMap || function () {
+        function WeakMap() {
+          _classCallCheck(this, WeakMap);
+
+          this.keys = [];
+          this.values = [];
+        }
+
+        _createClass(WeakMap, [{
+          key: 'get',
+          value: function get(key) {
+            for (var i = 0; i < this.keys.length; i++) {
+              var item = this.keys[i];
+              if (item === key) {
+                return this.values[i];
+              }
+            }
+            return undefined;
+          }
+        }, {
+          key: 'set',
+          value: function set(key, value) {
+            for (var i = 0; i < this.keys.length; i++) {
+              var item = this.keys[i];
+              if (item === key) {
+                this.values[i] = value;
+                return this;
+              }
+            }
+            this.keys.push(key);
+            this.values.push(value);
+            return this;
+          }
+        }]);
+
+        return WeakMap;
+      }();
+
+      // Dummy MutationObserver, to avoid raising exceptions.
+      var MutationObserver = window.MutationObserver || window.WebkitMutationObserver || window.MozMutationObserver || (_temp = _class = function () {
+        function MutationObserver() {
+          _classCallCheck(this, MutationObserver);
+
+          if (typeof console !== 'undefined' && console !== null) {
+            console.warn('MutationObserver is not supported by your browser.');
+            console.warn('WOW.js cannot detect dom mutations, please call .sync() after loading new content.');
+          }
+        }
+
+        _createClass(MutationObserver, [{
+          key: 'observe',
+          value: function observe() {}
+        }]);
+
+        return MutationObserver;
+      }(), _class.notSupported = true, _temp);
+
+      // getComputedStyle shim, from http://stackoverflow.com/a/21797294
+      var getComputedStyle = window.getComputedStyle || function getComputedStyle(el) {
+        var getComputedStyleRX = /(\-([a-z]){1})/g;
+        return {
+          getPropertyValue: function getPropertyValue(prop) {
+            if (prop === 'float') {
+              prop = 'styleFloat';
+            }
+            if (getComputedStyleRX.test(prop)) {
+              prop.replace(getComputedStyleRX, function (_, _char) {
+                return _char.toUpperCase();
+              });
+            }
+            var currentStyle = el.currentStyle;
+
+            return (currentStyle != null ? currentStyle[prop] : void 0) || null;
+          }
+        };
+      };
+
+      var WOW = function () {
+        function WOW() {
+          var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+
+          _classCallCheck(this, WOW);
+
+          this.defaults = {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true,
+            callback: null,
+            scrollContainer: null,
+            resetAnimation: true
+          };
+
+          this.animate = function animateFactory() {
+            if ('requestAnimationFrame' in window) {
+              return function (callback) {
+                return window.requestAnimationFrame(callback);
+              };
+            }
+            return function (callback) {
+              return callback();
+            };
+          }();
+
+          this.vendors = ['moz', 'webkit'];
+
+          this.start = this.start.bind(this);
+          this.resetAnimation = this.resetAnimation.bind(this);
+          this.scrollHandler = this.scrollHandler.bind(this);
+          this.scrollCallback = this.scrollCallback.bind(this);
+          this.scrolled = true;
+          this.config = extend(options, this.defaults);
+          if (options.scrollContainer != null) {
+            this.config.scrollContainer = document.querySelector(options.scrollContainer);
+          }
+          // Map of elements to animation names:
+          this.animationNameCache = new WeakMap();
+          this.wowEvent = createEvent(this.config.boxClass);
+        }
+
+        _createClass(WOW, [{
+          key: 'init',
+          value: function init() {
+            this.element = window.document.documentElement;
+            if (isIn(document.readyState, ['interactive', 'complete'])) {
+              this.start();
+            } else {
+              addEvent(document, 'DOMContentLoaded', this.start);
+            }
+            this.finished = [];
+          }
+        }, {
+          key: 'start',
+          value: function start() {
+            var _this = this;
+
+            this.stopped = false;
+            this.boxes = [].slice.call(this.element.querySelectorAll('.' + this.config.boxClass));
+            this.all = this.boxes.slice(0);
+            if (this.boxes.length) {
+              if (this.disabled()) {
+                this.resetStyle();
+              } else {
+                for (var i = 0; i < this.boxes.length; i++) {
+                  var box = this.boxes[i];
+                  this.applyStyle(box, true);
+                }
+              }
+            }
+            if (!this.disabled()) {
+              addEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
+              addEvent(window, 'resize', this.scrollHandler);
+              this.interval = setInterval(this.scrollCallback, 50);
+            }
+            if (this.config.live) {
+              var mut = new MutationObserver(function (records) {
+                for (var j = 0; j < records.length; j++) {
+                  var record = records[j];
+                  for (var k = 0; k < record.addedNodes.length; k++) {
+                    var node = record.addedNodes[k];
+                    _this.doSync(node);
+                  }
+                }
+                return undefined;
+              });
+              mut.observe(document.body, {
+                childList: true,
+                subtree: true
+              });
+            }
+          }
+        }, {
+          key: 'stop',
+          value: function stop() {
+            this.stopped = true;
+            removeEvent(this.config.scrollContainer || window, 'scroll', this.scrollHandler);
+            removeEvent(window, 'resize', this.scrollHandler);
+            if (this.interval != null) {
+              clearInterval(this.interval);
+            }
+          }
+        }, {
+          key: 'sync',
+          value: function sync() {
+            if (MutationObserver.notSupported) {
+              this.doSync(this.element);
+            }
+          }
+        }, {
+          key: 'doSync',
+          value: function doSync(element) {
+            if (typeof element === 'undefined' || element === null) {
+              element = this.element;
+            }
+            if (element.nodeType !== 1) {
+              return;
+            }
+            element = element.parentNode || element;
+            var iterable = element.querySelectorAll('.' + this.config.boxClass);
+            for (var i = 0; i < iterable.length; i++) {
+              var box = iterable[i];
+              if (!isIn(box, this.all)) {
+                this.boxes.push(box);
+                this.all.push(box);
+                if (this.stopped || this.disabled()) {
+                  this.resetStyle();
+                } else {
+                  this.applyStyle(box, true);
+                }
+                this.scrolled = true;
+              }
+            }
+          }
+        }, {
+          key: 'show',
+          value: function show(box) {
+            this.applyStyle(box);
+            box.className = box.className + ' ' + this.config.animateClass;
+            if (this.config.callback != null) {
+              this.config.callback(box);
+            }
+            emitEvent(box, this.wowEvent);
+
+            if (this.config.resetAnimation) {
+              addEvent(box, 'animationend', this.resetAnimation);
+              addEvent(box, 'oanimationend', this.resetAnimation);
+              addEvent(box, 'webkitAnimationEnd', this.resetAnimation);
+              addEvent(box, 'MSAnimationEnd', this.resetAnimation);
+            }
+
+            return box;
+          }
+        }, {
+          key: 'applyStyle',
+          value: function applyStyle(box, hidden) {
+            var _this2 = this;
+
+            var duration = box.getAttribute('data-wow-duration');
+            var delay = box.getAttribute('data-wow-delay');
+            var iteration = box.getAttribute('data-wow-iteration');
+
+            return this.animate(function () {
+              return _this2.customStyle(box, hidden, duration, delay, iteration);
+            });
+          }
+        }, {
+          key: 'resetStyle',
+          value: function resetStyle() {
+            for (var i = 0; i < this.boxes.length; i++) {
+              var box = this.boxes[i];
+              box.style.visibility = 'visible';
+            }
+            return undefined;
+          }
+        }, {
+          key: 'resetAnimation',
+          value: function resetAnimation(event) {
+            if (event.type.toLowerCase().indexOf('animationend') >= 0) {
+              var target = event.target || event.srcElement;
+              target.className = target.className.replace(this.config.animateClass, '').trim();
+            }
+          }
+        }, {
+          key: 'customStyle',
+          value: function customStyle(box, hidden, duration, delay, iteration) {
+            if (hidden) {
+              this.cacheAnimationName(box);
+            }
+            box.style.visibility = hidden ? 'hidden' : 'visible';
+
+            if (duration) {
+              this.vendorSet(box.style, { animationDuration: duration });
+            }
+            if (delay) {
+              this.vendorSet(box.style, { animationDelay: delay });
+            }
+            if (iteration) {
+              this.vendorSet(box.style, { animationIterationCount: iteration });
+            }
+            this.vendorSet(box.style, { animationName: hidden ? 'none' : this.cachedAnimationName(box) });
+
+            return box;
+          }
+        }, {
+          key: 'vendorSet',
+          value: function vendorSet(elem, properties) {
+            for (var name in properties) {
+              if (properties.hasOwnProperty(name)) {
+                var value = properties[name];
+                elem['' + name] = value;
+                for (var i = 0; i < this.vendors.length; i++) {
+                  var vendor = this.vendors[i];
+                  elem['' + vendor + name.charAt(0).toUpperCase() + name.substr(1)] = value;
+                }
+              }
+            }
+          }
+        }, {
+          key: 'vendorCSS',
+          value: function vendorCSS(elem, property) {
+            var style = getComputedStyle(elem);
+            var result = style.getPropertyCSSValue(property);
+            for (var i = 0; i < this.vendors.length; i++) {
+              var vendor = this.vendors[i];
+              result = result || style.getPropertyCSSValue('-' + vendor + '-' + property);
+            }
+            return result;
+          }
+        }, {
+          key: 'animationName',
+          value: function animationName(box) {
+            var aName = void 0;
+            try {
+              aName = this.vendorCSS(box, 'animation-name').cssText;
+            } catch (error) {
+              // Opera, fall back to plain property value
+              aName = getComputedStyle(box).getPropertyValue('animation-name');
+            }
+
+            if (aName === 'none') {
+              return ''; // SVG/Firefox, unable to get animation name?
+            }
+
+            return aName;
+          }
+        }, {
+          key: 'cacheAnimationName',
+          value: function cacheAnimationName(box) {
+            // https://bugzilla.mozilla.org/show_bug.cgi?id=921834
+            // box.dataset is not supported for SVG elements in Firefox
+            return this.animationNameCache.set(box, this.animationName(box));
+          }
+        }, {
+          key: 'cachedAnimationName',
+          value: function cachedAnimationName(box) {
+            return this.animationNameCache.get(box);
+          }
+        }, {
+          key: 'scrollHandler',
+          value: function scrollHandler() {
+            this.scrolled = true;
+          }
+        }, {
+          key: 'scrollCallback',
+          value: function scrollCallback() {
+            if (this.scrolled) {
+              this.scrolled = false;
+              var results = [];
+              for (var i = 0; i < this.boxes.length; i++) {
+                var box = this.boxes[i];
+                if (box) {
+                  if (this.isVisible(box)) {
+                    this.show(box);
+                    continue;
+                  }
+                  results.push(box);
+                }
+              }
+              this.boxes = results;
+              if (!this.boxes.length && !this.config.live) {
+                this.stop();
+              }
+            }
+          }
+        }, {
+          key: 'offsetTop',
+          value: function offsetTop(element) {
+            // SVG elements don't have an offsetTop in Firefox.
+            // This will use their nearest parent that has an offsetTop.
+            // Also, using ('offsetTop' of element) causes an exception in Firefox.
+            while (element.offsetTop === undefined) {
+              element = element.parentNode;
+            }
+            var top = element.offsetTop;
+            while (element.offsetParent) {
+              element = element.offsetParent;
+              top += element.offsetTop;
+            }
+            return top;
+          }
+        }, {
+          key: 'isVisible',
+          value: function isVisible(box) {
+            var offset = box.getAttribute('data-wow-offset') || this.config.offset;
+            var viewTop = this.config.scrollContainer && this.config.scrollContainer.scrollTop || window.pageYOffset;
+            var viewBottom = viewTop + Math.min(this.element.clientHeight, getInnerHeight()) - offset;
+            var top = this.offsetTop(box);
+            var bottom = top + box.clientHeight;
+
+            return top <= viewBottom && bottom >= viewTop;
+          }
+        }, {
+          key: 'disabled',
+          value: function disabled() {
+            return !this.config.mobile && isMobile(navigator.userAgent);
+          }
+        }]);
+
+        return WOW;
+      }();
+
+      exports.default = WOW;
+      module.exports = exports['default'];
+    });
+    new WOW().init();
   </script>
   <style>
-    /* // colors */
-    /* background: rgb(51, 8, 50); //roxo
-    background: rgb(255, 31, 76); // vermei
-    background: rgb(255, 185, 25); // amare
-    background: rgb(0, 171, 227); // azul */
-
-    body {
-      font-family: 'Montserrat', sans-serif;
-      color: #fff;
-    }
-    .fp-viewing-firstPage .header {
-      background: transparent;
-      color: #fff;
-    }
-    .fp-slidesNav.fp-bottom {
-      text-align: center;
-    }
-    .header {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      z-index: 1;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 48px 16px;
-      transition: all 1s;
-      background: #330832d6;
-    }
-    .fp-viewing-firstPage .header .logo img {
-      width: 145px;
-      transition: all 0.5s;
-      transform: scale(1);
-    }
-    .header .logo img {
-      width: 145px;
-      transform: scale(0.9);
-    }
-    .header .menu-navigation {
-      list-style: none;
-      display: flex;
-      padding: 0;
-      margin: 0;
-    }
-    .header .nav-wrapper {
-      display: flex;
-      align-items: center;
-    }
-    .menu-navigation li a, .header .button-download {
-      color: #fff;
-      font-family: 'Montserrat', sans-serif;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 13px;
-    }
-    .menu-navigation li a {
-      margin: 0 16px;
-    }
-    .header .button-download {
-      padding: 12px 32px;
-      border: 2px solid #fff;
-      border-radius: 25px;
-      margin-left: 16px;
-    }
-    .fp-tableCell {
-      display: flex;
-      width: 100vw!important;
-      height: 100vh!important;
-    }
-    .fp-viewing-firstPage #fp-nav ul li a span {
-      background: #ffffff;
-    }
-    #fp-nav ul li a span {
-      background:  rgb(51, 8, 50);
-    }
-    .container {
-      width: 100%;
-      height: 100%;
-      color: #fff;
-    }
-    .section-1 {
-      display: flex;
-      align-items: center;
-      background: #000000;
-      background-image: url('main-bg.jpg');
-    }
-    .section-main-text {
-      font-size: 42px;
-      font-weight: bold;
-      line-height: 1;
-      padding: 3rem 13rem;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-    .section-main-left {
-      width: 60%;
-      text-align: center;
-    }
-    .section-main-right {
-      width: 40%;
-      display: flex;
-      align-items: center;
-      height: 100%;
-    }
-    .section-main-right img {
-      width: 350px;
-    }
-    .button-main-download {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 24px;
-      padding: 16px 48px;
-      border: 2px solid #fff;
-      border-radius: 48px;
-      display: inline-block;
-      width: auto;
-    }
-    .arrow-next-page {
-      position: absolute;
-      z-index: 1;
-      bottom: 10px;
-      left: 0;
-      right: 0;
-      text-align: center;
-    }
-    .arrow-next-page img {
-      width: 60px;
-      transform: rotate(-90deg);
-      cursor: pointer;
-    }
-    .section-2 {
-      background: black;
-    }
-    .fp-controlArrow.fp-prev {
-      border: none!important;
-      left: 65px!important;
-    }
-    .fp-controlArrow.fp-prev::before {
-      content: "";
-      background-image: url(arrow-roxo.svg);
-      width: 90px;
-      height: 70px;
-      display: block;
-      background-repeat: no-repeat;
-    }
-    .fp-controlArrow.fp-next {
-      border: none!important;
-      right: 140px!important;
-    }
-    .fp-controlArrow.fp-next::before {
-      content: "";
-      background-image: url(arrow-roxo.svg);
-      width: 90px;
-      height: 70px;
-      display: block;
-      background-repeat: no-repeat;
-      transform: rotate(180deg);
-    }
-    .fp-slidesNav.fp-bottom ul li a span {
-      background: rgb(255, 185, 25);
-    }
-    .depoimento1 {
-      background-image: url('bg-depoimento-1.png');
-      background-repeat: no-repeat;
-      background-color: rgb(255,255,255);
-      background-color: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 81%);
-    }
-    .aspas1 {
-      position: absolute;
-      right: 45%;
-      top: 33%;
-      z-index: 1;
-      width: 100px;
-      opacity: 0.4;
-    }
-    .aspas2 {
-      position: absolute;
-      right: 10%;
-      top: 58%;
-      z-index: 1;
-      width: 100px;
-      opacity: 0.4;
-    }
-    .depoimento {
-      position: relative;
-      width: 100%;
-    }
-    .depoimento-texto {
-      width: 40%;
-      font-size: 34px;
-      color: rgb(51, 8, 50);
-      font-family: 'Montserrat', sans-serif;
-      position: absolute;
-      right: 9%;
-      top: calc(50% - 100px);
-      height: 300px;
-    }
-    .section-3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    .section-title {
-      font-size: 48px;
-      color: #330832;
-      position: absolute;
-      top: 15%;
-      font-weight: bold;
-      font-family: 'Montserrat', sans-serif;
-      border-bottom: 4px solid #330832;
-    }
-    .box-user {
-      width: 300px;
-      color: #000000;
-      border-radius: 15px;
-      padding: 64px 32px;
-      float: left;
-      /* box-shadow: 0 0 16px rgba(0,0,0,.5); */
-      position: relative;
-      text-align: center;
-      color: #fff;
-    }
-    .box-title {
-      margin: 16px;
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .box-user-1 {
-      background: rgb(255, 185, 25);
-    }
-    .box-user-1 img {
-      width: 130px;
-    }
-    .box-user-2 {
-      background: rgb(0, 171, 227);
-    }
-    .box-user-2 .actors img {
-      display: inline-block;
-      width: 120px;
-    }
-    .box-user-2 .actors img:first-child {
-      margin-right: -20px;
-    }
-    .box-user-2 .actors img:last-child {
-      margin-left: -20px;
-    }
-    .wrapper {
-      width: 860px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-around;
-    }
-    .section-4 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      color: black;
-    }
-    .wrapper-quem-somos {
-      flex-direction: column;
-      align-items: center;
-      padding-top: 10rem;
-    }
-    .quem-somos-texto {
-      color: #330832;
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
-    }
-    .section-4 .logo-uvv {
-      width: 300px;
-    }
-    .integrantes {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 32px;
-      flex-wrap: wrap;
-    }
-    .integrante-box {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 33%;
-      margin-bottom: 48px;
-      color: rgb(51, 8, 50);
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-    }
-    .integrante-image {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      margin: 0 auto;
-      margin-bottom: 10px;
-    }
-    .integrante {
-      text-align: center;
-      text-shadow: 3px 2px 4px #000000;
-    }
-    .hover-button {
-      position: relative;
-      transition: all 0.3s;
-      cursor: pointer;
-      z-index: 1;
-    }
-    .hover-button:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: #330832;
-      -webkit-transform: scaleY(0);
-      transform: scaleY(0);
-      -webkit-transform-origin: 50%;
-      transform-origin: 50%;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
-      border-radius: 32px;
-    }
-    .hover-button:hover {
-      /* color: #330832; */
-      border-color: #330832;
-    }
-    .hover-button:hover:before, .hover-button:focus:before, .hover-button:active:before {
-      -webkit-transform: scaleY(1);
-      transform: scaleY(1);
-    }
-
-    .hover-button-amare:before {
-      background: rgb(255, 185, 25);
-    }
-    .hover-button-amare:hover {
-      /* color: #330832; */
-      border-color: rgb(255, 185, 25);
-    }
-    .menu-navigation li {
-      position: relative;
-      padding-bottom: 8px;
-      margin-top: 8px;
-    }
-    .menu-navigation li:before {
-      content: "";
-      position: absolute;
-      z-index: -1;
-      left: 51%;
-      right: 51%;
-      bottom: 0;
-      background: #fff;
-      height: 2px;
-      -webkit-transition-property: left, right;
-      transition-property: left, right;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
-    }
-    .menu-navigation li:hover:before, .menu-navigation li:focus:before, .menu-navigation li:active:before, .menu-navigation .active:before {
-      left: 12px;
-      right: 12px;
-    }
-    @keyframes move-up-down {
-      0% {transform: translateY(-10px) rotate(-90deg)}
-      100% {transform: translateY(10px) rotate(-90deg)}
-    }
-    .move-up-down-infinite {
-      animation: move-up-down 1s ease-in-out infinite;
-    }
   </style>
 </body>
 </html>

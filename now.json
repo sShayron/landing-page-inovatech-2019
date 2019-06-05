@@ -3,9 +3,9 @@
    "name": "INOVATECH 2019 LANDING PAGE",
    "builds": [
       { "src": "*.html", "use": "@now/static" },
-      { "src": "*.css", "use": "@now/static" },
-      { "src": "*.jpg", "use": "@now/static" },
-      { "src": "*.svg", "use": "@now/static" },
-      { "src": "*.png", "use": "@now/static" }
+      { "src": "/css/*.css", "use": "@now/static" },
+      { "src": "/imgs/*.jpg", "use": "@now/static" },
+      { "src": "/imgs/*.svg", "use": "@now/static" },
+      { "src": "/imgs/*.png", "use": "@now/static" }
   ] 
 }
